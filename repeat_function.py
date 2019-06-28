@@ -52,7 +52,7 @@ class Interval(object):
 
 #def gets stock by name using intrinio api
 def Getstock(name):
-    intrinio_sdk.ApiClient().configuration.api_key['api_key'] = 'OjI1ODRhYTlmNTg1NTEwODA5ZmUxYmMzYmYzMTM2YzQy'
+    intrinio_sdk.ApiClient().configuration.api_key['api_key'] = '[your-intrino-api-key]'
 
     security_api = intrinio_sdk.SecurityApi()
 
